@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Codificador</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><img src="/imagens/logo.png" alt="Logo da Alura"></li>
+            <li><h1 class="titulo">Criptografe seu texte agora</h1></li>
+        </ul>    
+    </header>
+<main>    
+    <section>
+        <textarea class="input-texto" cols="30" rows="5" placeholder="Digite seu texto:"></textarea>
+        <div>
+            <h6 class="informacao">Apenas letras minusculas e sem acento.</h6>
+        </div>    
+        </div class="botoes">
+        <button class="encriptar" onclick="btnEncriptar()">
+            Criptografar
+        </button>
+        <button class="desencriptar" onclick="btnDesencriptar()">
+            Descriptografar
+        </button>
+    </div>
+    </section>
+
+    <section class="mensagem-box">
+        <textarea class="mensagem" cols="30" rows="5"></textarea>
+        <div id="div-aparece">
+            <button class="copiar" onclick="copiarTexto()">
+                Copiar
+            </button>
+        </div>    
+    </section>
+
+</main>
+<script src="script.js"></script>
+</body>
+<footer>
+    <p class="copy">&copy; Desenvolvido por Rebeca Ouriques</p>
+</footer>
+
+</html>
